@@ -1,9 +1,8 @@
-var radio = require("./lib/nrf905");
-radio = radio.nrf905;
+var nrf905 = require("./lib/nrf905");
 
 
-radio.writeConfigSpi();
-setInterval(function(){
-	radio.readConfigSpi();
+var radio = nrf905();
 
-}, 2000)
+radio.readConfig(function(config) {
+	console.log(config);
+});
