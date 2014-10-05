@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/SmbatYeranyan/nrf905/issues"
   },
-  "homepage": "https://github.com/SmbatYeranyan/nrf905"
+  "homepage": "https://github.com/SmbatYeranyan/nrf905",
+  "dependencies": {
+    "r-pi-gpio": "^2.1.2",
+    "spi": "^0.1.2"
+  }
 }
