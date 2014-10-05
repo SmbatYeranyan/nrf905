@@ -1,4 +1,4 @@
-var nrf905 = require("./lib/nrf905");
+var nrf905 = require("./lib");
 
 var radio = nrf905({
 	dev: '/dev/spidev0.0',
