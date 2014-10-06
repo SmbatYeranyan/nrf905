@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SmbatYeranyan/nrf905",
   "dependencies": {
+    "pi-pins": "^1.0.2",
     "spi": "^0.1.2"
   }
 }
